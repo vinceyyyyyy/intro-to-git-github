@@ -28,7 +28,7 @@ Git is developed as a CLI (Command Line Interface) tool, meaning you interact wi
 
 After installation, open your terminal and type `git --version`. You should see the version of your installation printed out.
 
-### GUI
+#### GUI
 
 If you are not comfortable with CLI, [GitHub Desktop](https://desktop.github.com/) is a good alternative. **However git CLI is still required before you can use GitHub Desktop**.
 
@@ -36,7 +36,7 @@ After installing git, simply download and install GitHub Desktop, then you can r
 
 It also prompts you for configuration during the installation. You can skip the **Config Git** section if you do it here.
 
-### IDE Integration
+#### IDE Integration
 
 IDEs, such as VSCode or JetBrain Pycharm, usually come with git integration as the form of version control or source control. However it also **requires Git CLI been installed in your machine**. Please refer to the **CLI** section to install it.
 
@@ -53,7 +53,7 @@ In your terminal, type:
 
 You can use `git config --global -l` to verify if configuration is done correctly.
 
-### GUI
+#### GUI
 
 GitHub Desktop picks up local git config by default, so you can refer to **CLI** section to config.
 
@@ -81,7 +81,7 @@ The easist way to do so it by setting up SSH keys with GitHub:
 
 ## Clone the Repo
 
-### CLI
+#### CLI
 
 1. Go to [this repo's GitHub page](https://github.com/vinceyyyyyy/intro-to-git-github), click the green `Code` button. The dropdown menu displays `SSH` connection string by default, witch is a text string starting with `git@github.com:`.
 
@@ -89,7 +89,7 @@ The easist way to do so it by setting up SSH keys with GitHub:
    3
 3. Press `enter` and it will clone the git repo to your working directory.
 
-### GUI
+#### GUI
 
 1. At the top left corner where is usually displays `Current Repository`, click it to open the dropdown menu.
 
@@ -99,7 +99,7 @@ The easist way to do so it by setting up SSH keys with GitHub:
 
 ## Pull and Branching
 
-### CLI
+#### CLI
 
 When you clone the repo, you have the latest content from remote. You can do `git pull` to refresh it again and will likely not run into any trouble.
 
@@ -107,7 +107,7 @@ However, the the files you see in you `File Explore` right now may not be all th
 
 To create a new branch for you to work on, type `git checkout -b YOUR_BRANCH_NAME`. This command creates a new branch named YOUR_BRANCH_NAME based on your current branch, and switch to that new branch.
 
-### GUI
+#### GUI
 
 When you clone the repository in GitHub Desktop, you have pulled that repo to you local machine already. Click `Fetch origin` at the top of the window to refresh what on the remote machine.
 
@@ -121,13 +121,13 @@ For example, `| Vincent Yan | Feeling good today |`
 
 After saving the file, we can start letting Git knows that we are adding changes to the version history, by adding a `commit`.
 
-### CLI
+#### CLI
 
 Type `git add README.md` to add the modified file to staging area. This is a temporary area for you to organize this commit.
 
 Then use `git commit -m "YOUR_MESSAGE"` to commit the change with your commit message.
 
-### GUI
+#### GUI
 
 Once some changed in the repo, the left side bar displays that change under Changes. This is essentially a visualized staging area, which includes all changes automaticlly.
 
@@ -137,11 +137,11 @@ Type your commit message at the bottom of the side bar, then hit the `commit to`
 
 Your branch only exsits on your local machine at this point, it is not visible for others using Github, and is not backed up on the cloud. Therefore, we need to push (publish) your branch to the remote.
 
-### CLI
+#### CLI
 
 Type `git push --set-upstream origin YOUR_BRANCH_NAME_ON_CLOUD` to publish your branch and push the content to remote. You need to assign the name again here, because your branch can have different name for remote and local.
 
-### GUI
+#### GUI
 
 Use the `Publish Branch` button to publish it.
 
@@ -157,6 +157,6 @@ The repo admin will review your pull request along with what you have changed, a
 
 If your PR gets approved, you can finish it by click one more button, and then your name and feeling will appear in the develop branch.
 
-### GUI
+#### GUI
 
 You can do pretty much anything from GitHub Desktop, just click the `Create Pull Request` button after pulishing your branch.

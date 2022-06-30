@@ -10,15 +10,15 @@ Please follow this manual step by step if it is your first time using git. Optio
 
 ## Prerequisites
 
--   A GitHub account
--   A Terminal
-    -   for windows, use [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US) (recommanded) or PowerShell (PowerShell is installed in every Windows 10 computer, you can find it by searching in your start menu)
-    -   for macOS, use [iTerm2](https://iterm2.com/) (recommanded) or native Terminal (you can find it by searching in Spotlight)
-    -   for Linux, use your terminal of choice.
+- A GitHub account
+- A Terminal
+  - for windows, use [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US) (recommanded) or PowerShell (PowerShell is installed in every Windows 10 computer, you can find it by searching in your start menu)
+  - for macOS, use [iTerm2](https://iterm2.com/) (recommanded) or native Terminal (you can find it by searching in Spotlight)
+  - for Linux, use your terminal of choice.
 
 ## Find the demo repo
 
-Demo repo is at [GitHub Repo](https://github.com/vinceyyyyyy/intro-to-git-github). The repo itself is a monorepo, meaning it contains multiple (in engineering sense) saperated things. For the purpose of this manual, please find the [Manual](https://github.com/vinceyyyyyy/intro-to-git-github/manual) folder in it.
+Demo repo is at [this GitHub Repo](https://github.com/vinceyyyyyy/intro-to-git-github).
 
 Because content in other folders are possible to change at the same time while you following along this manual, It is also a good chance to think about why it is recommanded to use separated repos for multiple projects, and when do you want to use monorepo approach.
 
@@ -48,8 +48,8 @@ At a minimum, Git requires **username** and **email** to identify unique authors
 
 In your terminal, type:
 
--   `git config --global user.name "FIRST_NAME LAST_NAME"` to set your username. This name is used as your author name for every commit.
--   `git config --global user.email "MY_NAME@example.com"` to set your email.
+- `git config --global user.name "FIRST_NAME LAST_NAME"` to set your username. This name is used as your author name for every commit.
+- `git config --global user.email "MY_NAME@example.com"` to set your email.
 
 You can use `git config --global -l` to verify if configuration is done correctly.
 

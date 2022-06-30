@@ -4,6 +4,8 @@ This project is part of the Blend360 Data Prep CoE.
 
 The goal of this project is to help our colleagues to be familiar with git and GitHub, hence be able to utilize them to enhance their workflow.
 
+[GO TO THE MANUAL](git-manual.md)
+
 ## Ourcome
 
 Tentative outcome of this project includes:
@@ -14,10 +16,10 @@ Tentative outcome of this project includes:
 
 ## Road Map
 
--   [ ] format and tooling of deliverables
--   [ ] detailed scope of each deliverable
--   [ ] enhanced presentation
--   [ ] workshop agenda
+- [ ] format and tooling of deliverables
+- [ ] detailed scope of each deliverable
+- [ ] enhanced presentation
+- [ ] workshop agenda
 
 ## How do you feel today
 

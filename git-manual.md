@@ -2,7 +2,7 @@
 
 ## About
 
-This manual is for everyone to follow along to practice Git/GitHub. It is strongly recommanded to do after finishing the presentation or practicing in the workshop.
+This manual is for everyone to follow along to practice Git/GitHub. There is a presentation in place to demonstrate the concept and use cases of Git/Github, you can find the slides [here](resources/git_presentation.pptx).
 
 There are more than one way of using Git/GitHub: CLI, GUI, and IDE Integration. CLI is the default way of doing thing, but using something with GUI may be the most easy way for most people. However, it still requires some interactions with CLI tool beforehand to make most GUI tools up and running.
 
